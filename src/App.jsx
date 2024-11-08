@@ -1,6 +1,7 @@
 
 import Navbar from './components/Navbar'
-import ListaParaRenderizar from './components/ListaParaRenderizar'
+import ItemListContainer from './components/ItemListContainer'
+
 
 
 
@@ -11,9 +12,9 @@ function App() {
   return ( 
     <>
       <Navbar/>
-      <ListaParaRenderizar/>
+      <ItemListContainer/>
     </>
   )
 }
-
+s
 export default App

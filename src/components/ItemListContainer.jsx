@@ -1,13 +1,15 @@
 
 
+import ListaParaRenderizar from "./ListaParaRenderizar";
+import '../app.css'
 
-function ItemListContainer ({saludo, greetingb}) {
+function ItemListContainer () {
     return (
-       <div id="container">
-           <h1>{saludo}</h1>;
-           <h2> {greetingb} </h2>;
-       </div>
-    );
+        <div>
+            <ListaParaRenderizar saludo="Hola a todos" greetingb="esto es la prueba 1"/>
+
+        </div>
+    )
 }
 
 export default ItemListContainer;
